@@ -42,8 +42,10 @@
     font-size: 48px;
 }
 .discription{
-    width: 400px;
+    width: 852px;
     height: 52px;
+    opacity: 70%;
+    font-size: 16px;
 }
 .sec-btn{
     background-color: black;
@@ -51,4 +53,12 @@
     height: 57px;
     border-radius: 8px;
     color: white;
+}
+/* main  */
+.web-main{
+    margin: 76px 152px 88px 148px;
+}
+.main-div{
+margin: ;
+    text-align: center;
 }
