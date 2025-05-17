@@ -5,9 +5,8 @@
   font-style: normal;
 }
 
-
-/* Nav Style */
-.header-nav{
+/* navbar Style */
+.navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -21,20 +20,23 @@
     height: 57px;
     border-radius: 8px;
 }
-.header-sec{
+.banner{
     background-image: url(assets/Hero-bg.png);
     width: 100%;
     text-align: center;
 }
-.header-all-sec {
+.banner-sub{
     display: flex;
+    flex-direction: column;
     margin: auto;
     justify-content: center;
     align-items: center;
 }
-.header-img{
+.banner-img{
+    padding-top: 26px;
     width: 240px;
     height: 240px;
+align-items: center;
 }
 .sub-title{
     width: 998px;
@@ -48,18 +50,48 @@
     opacity: 70%;
     font-size: 16px;
 }
-.sec-btn{
+.btn{
     background-color: black;
     width: 244px;
     height: 57px;
     border-radius: 8px;
     color: white;
+    margin-bottom: 45px;
+    /* padding-bottom: 45px; */
 }
 /* main  */
-.web-main{
+.main{
     margin: 76px 152px 88px 148px;
+    background-color: rgba(13, 19, 33, 0.02);
+    padding: 80px 97px 80px 97px;
+    border-radius: 16px;
 }
+
 .main-div{
 padding: 15px;
-    text-align: center;
+text-align: center;
+}
+/* sec-mai style card */
+.sec-main{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 16px;
+    padding: 48px;
+    margin-bottom: 32px;
+}
+/* inside card */
+.card-title{
+    font-size: 24px;
+    font-weight: bold;
+}
+.card-discription{
+    opacity: 70%;
+    font-size: 16px;
+}
+.card-btn{
+    width: 171px;
+    height: 47px;
+    background-color: white;
+    opacity: 70%;
 }
