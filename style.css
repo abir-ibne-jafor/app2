@@ -95,3 +95,75 @@ text-align: center;
     background-color: white;
     opacity: 70%;
 }
+/* 2nd main  */
+.main-scend{
+    margin: 76px 152px 88px 148px;
+}
+.video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+.title{
+    font-size: 32px;
+    font: 900;
+}
+.discription{
+    font-size: 16px;
+    opacity: 70%;
+    /* width: 852px; */
+    /* height: 32px; */
+}
+.video-fleam{
+    padding: 32px;
+    border-radius: 16px;
+    
+}
+.link-video{
+    border-radius: 16px;
+    border-color: black;
+}
+/* skill style */
+.skills{
+    margin: 76px 152px 88px 148px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 1140px;
+    height: 460px;
+}
+.skill{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    /* padding: 40px; */
+    /* row-gap: 24px; */
+    gap: 24px;
+}
+.skill-one{
+    background-color: rgba(255, 76, 30, 0.05);
+    width: 364px;
+    height: 229px;
+    padding: 40px;
+    border-radius: 16px;
+    
+}
+.skill-two{
+    background-color: rgba(0, 76, 232, 0.05);
+    width: 364px;
+    height: 229px;
+    padding: 40px;
+    border-radius: 16px;
+}
+.skill-three{
+    background-color: rgba(255, 223, 0, 0.05);
+    width: 364px;
+    height: 229px;
+    padding: 40px;
+    border-radius: 16px;
+}
