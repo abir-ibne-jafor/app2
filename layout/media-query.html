@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <style>
+        .container{
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 10px;
+        }
+        .food{
+            border: 1px solid tomato;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .food img{
+            width: 100%;
+        }
+
+
+        /* smaller device */
+        @media screen and (max-width:576px) {
+            .container{
+                grid-template-columns: repeat(1, 1fr);
+            }
+            .food{
+                background-color: aquamarine;
+            }
+        }
+        /* mediam divice */
+        @media screen and (min-width:576px) and (max-width:992px) {
+            .container{
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="food">
+            <img src="top-ten-foods-for-health-2x.webp" alt="">
+            <h3>Food Item - 1</h3>
+            <p>price: $100</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae mollitia consequuntur odio deserunt rerum ab, adipisci consectetur incidunt magnam et.</p>
+            <button>Bey Now</button>
+        </div>
+        <div class="food">
+            <img src="top-ten-foods-for-health-2x.webp" alt="">
+            <h3>Food Item - 2</h3>
+            <p>price: $200</p>
+            <p>Aspernatur nesciunt fuga voluptas numquam officia, distinctio quam voluptatem quia molestiae aut odio? Harum pariatur, deserunt voluptate aliquam fuga odio.</p>
+            <button>Bey Now</button>
+        </div>
+        <div class="food">
+            <img src="top-ten-foods-for-health-2x.webp" alt="">
+            <h3>Food Item - 3</h3>
+            <p>price: $300</p>
+            <p>Tempore ducimus perspiciatis, accusantium est dignissimos saepe mollitia laudantium ipsa totam deserunt maxime ab optio. Amet consequuntur nulla illo tempora.</p>
+            <button>Bey Now</button>
+        </div>
+        <div class="food">
+            <img src="top-ten-foods-for-health-2x.webp" alt="">
+            <h3>Food Item - 4</h3>
+            <p>price: $400</p>
+            <p>Ipsa nostrum, molestiae deserunt officia cum hic unde, fugit velit quia vero numquam molestias consequatur voluptate ipsam ex sint laboriosam.</p>
+            <button>Bey Now</button>
+        </div>
+        <div class="food">
+            <img src="top-ten-foods-for-health-2x.webp" alt="">
+            <h3>Food Item - 5</h3>
+            <p>price: $500</p>
+            <p>Reiciendis iste suscipit, dignissimos illo cumque, saepe hic, quo iusto eius impedit tempore! Beatae nesciunt obcaecati sequi deleniti, atque illo?</p>
+            <button>Bey Now</button>
+        </div>
+        <div class="food">
+            <img src="top-ten-foods-for-health-2x.webp" alt="">
+            <h3>Food Item - 6</h3>
+            <p>price: $600</p>
+            <p>Delectus fugit doloremque ipsa quas harum quisquam, provident, officia nemo necessitatibus expedita natus quibusdam optio numquam quos nobis! Delectus, nobis.</p>
+            <button>Bey Now</button>
+        </div>
+        <div class="food">
+            <img src="top-ten-foods-for-health-2x.webp" alt="">
+            <h3>Food Item - 7</h3>
+            <p>price: $700</p>
+            <p>Nostrum repellendus vitae ut assumenda perferendis, quisquam soluta aperiam eum sit repellat dicta obcaecati deleniti, facere nulla illum accusantium iste.</p>
+            <button>Bey Now</button>
+        </div>
+        <div class="food">
+            <img src="top-ten-foods-for-health-2x.webp" alt="">
+            <h3>Food Item - 8</h3>
+            <p>price: $800</p>
+            <p>Nobis debitis velit assumenda modi vel ipsa tenetur dolorum, cumque earum voluptatibus explicabo perspiciatis harum! Provident quaerat officiis exercitationem? Autem?</p>
+            <button>Bey Now</button>
+        </div>
+        <div class="food">
+            <img src="top-ten-foods-for-health-2x.webp" alt="">
+            <h3>Food Item - 9</h3>
+            <p>price: $900</p>
+            <p>Blanditiis iste, dolore recusandae assumenda, reiciendis nemo fugiat deserunt enim laboriosam doloribus commodi quod, illo quaerat. Blanditiis magnam laborum adipisci.</p>
+            <button>Bey Now</button>
+        </div>
+        <div class="food">
+            <img src="top-ten-foods-for-health-2x.webp" alt="">
+            <h3>Food Item - 10</h3>
+            <p>price: $1000</p>
+            <p>Dolore blanditiis vero necessitatibus explicabo harum, eum quia veniam pariatur minima ut placeat recusandae, magnam obcaecati quaerat iusto laboriosam. Non.</p>
+            <button>Bey Now</button>
+        </div>
+        <div class="food">
+            <img src="top-ten-foods-for-health-2x.webp" alt="">
+            <h3>Food Item - 11</h3>
+            <p>price: $1100</p>
+            <p>Excepturi nemo officiis dolores omnis facere ducimus esse nostrum aliquam tempore? Sint, laboriosam. Facere vero, ad culpa sit eum quis?</p>
+            <button>Bey Now</button>
+        </div>
+        <div class="food">
+            <img src="top-ten-foods-for-health-2x.webp" alt="">
+            <h3>Food Item - 12</h3>
+            <p>price: $1200</p>
+            <p>Non nemo laborum harum, corrupti natus nobis! Laborum nesciunt saepe exercitationem quos ex similique, iusto quas cumque ea necessitatibus expedita!</p>
+            <button>Bey Now</button>
+        </div>
+    </div>
+</body>
+</html>
